@@ -1,8 +1,22 @@
 # research-copilot
 
-English | [中文](README.cn.md)
+English | [中文](README.cn.md) · [Research Skillbox](https://github.com/windyvictor/research-skillbox)
 
 A rigorous research collaboration skill for mathematics, optimization, machine learning, related theory, algorithms, computational experiments, empirical design, novelty analysis, and research workflow planning.
+
+## Why this skill
+
+Research problems rarely fit a single prompt. A proof depends on hidden assumptions; a novelty claim depends on component-level literature; an experiment can run while implementing the wrong method; a reproduced table may still use leaked data. This skill treats each of these as a different verification problem.
+
+### What you get
+
+- Proofs and derivations with definitions, domains, dimensions, boundary cases, and missing conditions exposed
+- Novelty maps that compare mechanisms and formulas rather than keyword combinations
+- Experiment plans with baselines, ablations, leakage checks, metrics, and stopping conditions
+- Reproduction records that distinguish code execution, implementation fidelity, and result agreement
+- A cross-stage research plan only when the task genuinely spans several stages
+
+**Workflow:** classify the research task → expose assumptions → choose the required proof, search, computation, or experiment → execute → verify the observable result.
 
 ## Use it for
 
