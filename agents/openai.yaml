@@ -1,0 +1,6 @@
+interface:
+  display_name: "科研协作助手"
+  short_description: "严谨协作完成推导、选题、研究设计、算法实验与复现核验"
+  default_prompt: "使用 $research-copilot 严谨推进这个科研问题，明确假设、验证路径、证据和完成条件。"
+policy:
+  allow_implicit_invocation: true

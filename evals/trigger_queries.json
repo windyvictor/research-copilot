@@ -1,0 +1,14 @@
+{
+  "skill": "research-copilot",
+  "protocol": "每条查询在新会话运行 3 次；记录是否加载本技能及误路由原因。",
+  "queries": [
+    {"query": "检查这个 Lyapunov 证明缺了哪些条件，并补全可证明的部分。", "should_trigger": true},
+    {"query": "这个优化想法可能新在哪里？请拆组件检索并分析核心公式。", "should_trigger": true},
+    {"query": "为这个算法设计基线、消融和防数据泄露的实验。", "should_trigger": true},
+    {"query": "复现论文结果，区分代码跑通、实现一致和数值复现。", "should_trigger": true},
+    {"query": "我需要一个跨检索、证明、实验和写作的科研工作流。", "should_trigger": true},
+    {"query": "把这段论文文字去掉 AI 味。", "should_trigger": false},
+    {"query": "帮我读懂这本科研方法书。", "should_trigger": false},
+    {"query": "将这些论文笔记导入卡片盒。", "should_trigger": false}
+  ]
+}

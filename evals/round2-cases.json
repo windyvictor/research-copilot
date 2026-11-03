@@ -1,0 +1,45 @@
+{
+  "skill": "research-copilot",
+  "version": "2026-11-03-round2",
+  "status": "designed_not_model_tested",
+  "cases": [
+    {
+      "id": "research-copilot-r2-1",
+      "label": "数据泄露",
+      "prompt": "检查实验设计：先对全数据标准化、筛特征，再随机切分训练测试；同一人的多条记录可能跨两边。",
+      "assertions": [
+        "定位预处理与主体重叠两种泄露风险",
+        "建议按主体划分并在训练折拟合",
+        "受影响结果需重跑，不只改文字"
+      ]
+    },
+    {
+      "id": "research-copilot-r2-2",
+      "label": "证明边界",
+      "prompt": "有人说有界数列必收敛。请判断并说明。",
+      "assertions": [
+        "用如 (-1)^n 的有效反例",
+        "区分有界与收敛",
+        "不启动全领域查新或实验计划"
+      ]
+    },
+    {
+      "id": "research-copilot-r2-3",
+      "label": "复现状态",
+      "prompt": "代码在小样本跑通，但原论文用全量数据，尚未运行。能写复现成功吗？",
+      "assertions": [
+        "区分跑通、实现一致和结果复现",
+        "未运行部分明确",
+        "给最小后续验证，不造指标"
+      ]
+    },
+    {
+      "id": "research-copilot-r2-4",
+      "label": "误触发",
+      "prompt": "把“感谢您百忙中审阅”改得自然，不涉及科研内容。",
+      "assertions": [
+        "直接改写，不套证明和创新性检查"
+      ]
+    }
+  ]
+}
